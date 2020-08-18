@@ -1,5 +1,5 @@
 import pako from 'pako';
-const forge = require('../vendor/forge.min');
+import forge from 'node-forge';
 import {isEmpty} from './utils';
 
 const IV_BYTES_SIZE = 16;
